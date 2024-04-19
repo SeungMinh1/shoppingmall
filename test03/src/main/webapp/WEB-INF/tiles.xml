@@ -7,15 +7,14 @@
   
   <!-- user용 -->
   
-  <definition name="boardapp" template="/WEB-INF/layout/template.jsp">
+  <definition name="musinsamapp" template="/WEB-INF/layout/template.jsp">
     <put-attribute name="title" value="Tiles Template Homepage" />
     <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
-    <put-attribute name="menu" value="/WEB-INF/layout/menu.jsp" />
     <put-attribute name="body" value="/WEB-INF/layout/body.jsp" />
     <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
   </definition>
   
-  <definition name="WILDCARD:musinsam/*" extends="boardapp">
+  <definition name="WILDCARD:musinsam/*" extends="musinsamapp">
   	<put-attribute name="body" value="/WEB-INF/view/{1}.jsp"></put-attribute>
   </definition>
   
