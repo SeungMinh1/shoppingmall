@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Aroma Shop - Product Details</title>
+  <title>상세 페이지</title>
 	<link rel="icon" href="img/Fevicon.png" type="image/png">
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
@@ -31,10 +30,10 @@
           </button>
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
-              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html">메인페이지</a></li>
               <li class="nav-item active submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Shop</a>
+                  aria-expanded="false">오늘의코디</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
                   <li class="nav-item"><a class="nav-link" href="single-product.html">Product Details</a></li>
@@ -45,7 +44,7 @@
 							</li>
               <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Blog</a>
+                  aria-expanded="false">베스트셀러</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                   <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
@@ -127,10 +126,10 @@
               <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
 							 class="increase items-count" type="button"><i class="ti-angle-left"></i></button>
 							<input type="text" name="qty" id="sst" size="2" maxlength="12" value="1" title="Quantity:" class="input-text qty">
-							<button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+							<button onclick="var result = document.getElementById('sst'); var sst = result.value; if(!isNaN( sst )) &amp &amp; sst > 0 result.value--; return false;"
                class="reduced items-count" type="button"><i class="ti-angle-right"></i></button>
 							<a class="button primary-btn" href="#">Add to Cart</a>               
-						</div>
+						</div> 
 						<div class="card_area d-flex align-items-center">
 							<a class="icon_btn" href="#"><i class="lnr lnr lnr-diamond"></i></a>
 							<a class="icon_btn" href="#"><i class="lnr lnr lnr-heart"></i></a>
