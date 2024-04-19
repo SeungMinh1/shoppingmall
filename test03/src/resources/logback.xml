@@ -8,7 +8,7 @@
     </encoder>
   </appender>
 
-  <logger name="co.yedam.mapper.BoardMapper">
+  <logger name="co.yedam.mapper.Mapper">
     <level value="debug"/>
   </logger>
   <root level="error">

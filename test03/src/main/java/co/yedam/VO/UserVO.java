@@ -1,4 +1,4 @@
-package com.yedam.VO;
+package co.yedam.VO;
 
 
 
