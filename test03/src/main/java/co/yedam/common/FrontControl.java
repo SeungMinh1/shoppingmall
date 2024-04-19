@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 
 public class FrontControl extends HttpServlet{
 	
-	//url pattern - 실행서블릿, 관리.
 		Map<String, Control> map;
 		
 		public FrontControl(){
