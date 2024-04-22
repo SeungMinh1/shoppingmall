@@ -12,5 +12,6 @@ public class ClothesVO {
 	private int discountRate;
 	private String csize;
 	private int cnt;
+	private String img;
 	
 }
